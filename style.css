@@ -1,0 +1,19 @@
+*{margin: 0px; padding: 0px;box-sizing: border-box;}
+.mainbody{height: auto;width: 100%;}
+.header{height: auto; width: 100%; background: rgb(101, 101, 140); color:white;font-size: 40px;
+font-weight: bold; padding: 40px; text-align: center;}
+
+
+ .menu{height: auto; width: 100%; background: lightblue;padding: 15px 0px; position: sticky; top: 0px; z-index: 2; text-align: center;}
+ .menu a{text-decoration: none; padding: 15px 30px;}
+ .menu a:hover{background: purple; color: white;}
+ .slider{height: auto; width: 100%;}
+ .center{height: 1000px; width: 100%;}
+
+ .left{height: 1000px; width: 25%; float: left; background: lightgoldenrodyellow;}
+ .right{height: 1000px; width: 75%; float: right; background: lightpink; padding: 30px;text-align: justify;}
+ .right h2,h3{margin: 15px 0px;}
+ .right p::first-letter{font-size: 40px; initial-letter: 3; color: aqua;}
+ .right p{text-indent: 150px;}
+ .marquee{height: auto; width: 100%; line-height: 30px;position: relative; z-index: 1;}
+ .footer{height: auto; width: 100%; background: rgb(101, 101, 140); color: white; text-align: center ;padding: 40px;}
